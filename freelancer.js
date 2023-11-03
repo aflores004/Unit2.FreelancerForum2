@@ -13,7 +13,7 @@ const freelancers = [
 const freelanceForum = document.createElement('h1');
 freelanceForum.textContent = 'Freelance Forum';
 freelanceForum.style.textAlign = 'center';
-freelanceForum.style.fontSize = '40px'; // Adjust font size
+freelanceForum.style.fontSize = '40px'; 
 document.body.appendChild(freelanceForum);
 
 function calculateAverageStartingPrice(freelancers) {
@@ -22,7 +22,7 @@ function calculateAverageStartingPrice(freelancers) {
 }
 
 
-// Calculate and display the average starting price below the freelancers table
+
 const averagePrice = calculateAverageStartingPrice(freelancers);
 
 const averagePriceElement = document.createElement('p');
@@ -31,19 +31,19 @@ averagePriceElement.style.textAlign = 'center';
 averagePriceElement.style.fontSize ="25px"
 document.body.appendChild(averagePriceElement);
 
-// Create and center the text "Available Freelancers"
+
 const availableFreelancers = document.createElement('p');
 availableFreelancers.textContent = 'Available Freelancers';
 availableFreelancers.style.textAlign = 'center';
 
-availableFreelancers.style.fontSize = '24px'; // Adjust font size
-availableFreelancers.style.fontWeight = 'bold'; // Set font weight to bold
+availableFreelancers.style.fontSize = '24px'; 
+availableFreelancers.style.fontWeight = 'bold'; 
 document.body.appendChild(availableFreelancers);
 
-// Create a table for the freelancers
+
 const table = document.createElement('table');
-table.style.margin = '0 auto'; // Center the table
-table.style.borderSpacing = '20px'; // Add space between cells
+table.style.margin = '0 auto'; 
+table.style.borderSpacing = '20px';
 
 const tableRow = document.createElement('tr');
 const headers = ['Name', 'Occupation', 'Starting Price'];
